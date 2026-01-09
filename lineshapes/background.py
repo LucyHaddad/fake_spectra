@@ -25,6 +25,8 @@ def sawtooth(x:np.ndarray, e0:float)->np.ndarray:
     Make a sawtooth function of ~1 periods centering around e0.
     """
     f0 = sawtooth_init(x)
+    #this centering isn't working particularly well.. double check with gradients?
+    #/use ~unit x axis to make it easier?
     f01 = sawtooth_center(x, e0, f0)
     return f01
 
