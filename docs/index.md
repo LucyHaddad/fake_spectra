@@ -1,7 +1,4 @@
 Contents
 --------
-
-.. toctree::
-
-   README_copy
-   A_PAGE
+:maxdepth: 2
+README_copy

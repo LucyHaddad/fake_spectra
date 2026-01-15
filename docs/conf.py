@@ -9,10 +9,6 @@ extensions = [
     "sphinx.ext.graphviz",
     # For linking to external sphinx documentation
     "sphinx.ext.intersphinx",
-    # Add a copy button to each code block
-    "sphinx_copybutton",
-    # For the card element
-    "sphinx_design",
     # So we can write markdown files
     "myst_parser",
 ]
@@ -65,6 +61,7 @@ html_context = {
     "github_user": github_user,
     "github_repo": github_repo,
     "doc_path": "docs",
+    "github_version":"0.0.0"
 }
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
