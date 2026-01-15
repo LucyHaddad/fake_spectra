@@ -19,3 +19,4 @@ def sum_of_sine(N:int, x:np.ndarray, amp0:float=1, phase0:float=0,
         shift = shift0 + _rng.normal(0, 1, 1)
         summed += sine_init(px, amp, phase, shift)
     return summed
+
