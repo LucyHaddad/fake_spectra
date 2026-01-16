@@ -1,6 +1,7 @@
 # a loooot of this from python-copier-template
-import sys
-import requests
+import sys; import os
+
+sys.path.append(os.path.abspath('..'))
 
 project = "fake-spectra"
 
@@ -11,6 +12,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     # So we can write markdown files
     "myst_parser",
+    'sphinx.ext.autodoc'
 ]
 
 # So we can use the ::: syntax
@@ -23,7 +25,7 @@ graphviz_output_format = "svg"
 default_role = "any"
 
 # The suffix of source filenames.
-source_suffix = ".md"
+source_suffix = ".rst"
 
 # The master toctree document.
 master_doc = "index"
