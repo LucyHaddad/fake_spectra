@@ -32,7 +32,7 @@ master_doc = "index"
 
 exclude_patterns = ["_build"]
 BUILDDIR = '.'
-html_static_path = ['/_static']
+html_static_path = ['_build/_static']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = "sphinx"
