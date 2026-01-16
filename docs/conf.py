@@ -57,7 +57,7 @@ html_theme_options = {
         "text": project,
     },
     "use_edit_page_button": True,
-    "github_url": f"https://github.com/{github_user}/{github_repo}/index.html",
+    "github_url": f"https://github.com/{github_user}/{github_repo}",
     "navbar_end": ["theme-switcher", "icon-links", "version-switcher"],
 }
 
