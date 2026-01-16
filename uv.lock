@@ -397,7 +397,7 @@ wheels = [
 ]
 
 [[package]]
-name = "fake-data"
+name = "fake-spectra"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

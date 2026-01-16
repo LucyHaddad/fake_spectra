@@ -1,4 +1,4 @@
-from utils.background import sawtooth_wave
+from ..utils.background import sawtooth_wave
 import numpy as np
 
 def make_background(params):

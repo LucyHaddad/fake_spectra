@@ -3,9 +3,9 @@ from PySide6.QtWidgets import (QApplication, QMainWindow, QHBoxLayout, QVBoxLayo
                             QComboBox, QPushButton)
 from PySide6.QtCore import Qt
 
-from process.find_e0 import get_edges, get_e0
-from process.make_bkg import make_background
-from plotter import BasicPlot
+from ..process.find_e0 import get_edges, get_e0
+from ..process.make_bkg import make_background
+from .plotter import BasicPlot
 
 class MainWidget(QWidget):
     def __init__(self, parent=None):
@@ -111,12 +111,5 @@ class MainWindow(QMainWindow):
         super().__init__()
         main_widget = MainWidget(self)
         self.setCentralWidget(main_widget)
-
-
-app = QApplication([])
-main = MainWindow()
-if __name__ == "__main__":
-    main.show()
-    app.exec()
 
 

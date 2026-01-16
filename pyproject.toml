@@ -1,5 +1,5 @@
 [project]
-name = "fake-data"
+name = "fake_spectra"
 version = "0.1.0"
 description = "A play around to make some fake xas-like signal."
 readme = "README.md"
