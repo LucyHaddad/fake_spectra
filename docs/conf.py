@@ -32,7 +32,7 @@ master_doc = "index"
 
 exclude_patterns = ["_build"]
 BUILDDIR = '.'
-html_static_path = ['_build/_static']
+html_static_path = ['_static']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = "sphinx"
@@ -57,7 +57,7 @@ html_theme_options = {
         "text": project,
     },
     "use_edit_page_button": True,
-    "github_url": f"https://github.com/{github_user}/{github_repo}",
+    "github_url": f"https://github.com/{github_user}/{github_repo}/index.html",
     "navbar_end": ["theme-switcher", "icon-links", "version-switcher"],
 }
 
